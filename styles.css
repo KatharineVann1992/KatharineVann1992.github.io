@@ -1,0 +1,82 @@
+header {
+  text-align: center;
+  background: url("http://cdn-image.travelandleisure.com/sites/default/files/styles/tnl_redesign_article_landing_page/public/1471536942/Aftermath-Obliteration-Eternity-YAYOI0816.jpg?itok=rDPAXsoG");
+  background-size: cover;
+  color: white;
+}
+a {
+  color: white;
+}
+h1 {
+  font-size: 60px;
+  font-family: arial, sans-serif;
+  font-weight: lighter;
+  text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+}
+h2 {
+  align-items: center;
+  font-size: 20px;
+  font-family: arial, sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  color: black;
+}
+h3 {
+  font-size: 18px;
+  font-family: arial, sans-serif;
+  font-weight: lighter;
+}
+p {
+  word-wrap: break-word;
+  font-size: 15px;
+  font-family: arial, sans-serif;
+  float: right;
+}
+img {
+  margin: 40px 0px 0px 0px;
+  border: 7px;
+  border-radius: 10px;
+  image-resolution: snap;
+}
+ul {
+  padding: 10px;
+  background: black;
+  font-size: 10px;
+  font-family: arial, sans-serif;
+  font-size: lighter;
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px
+}
+article {
+  max-width: 1000px;
+  padding: 20px;
+  margin: 0 auto;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  body {
+    background: red;
+  }
+  h1 {
+    font-size: 20px;
+    text-align: right;
+  }
+  h2 {
+    text-align: right;
+  }
+  li {
+    display: block;
+    padding: 5px;
+  }
+}
+body {
+  font-family: helvetica, sans-serif;
+  font-size: 15px;
+  color: black;
+}
+div {
+  width: 200px;
+  word-break: break-all;
+}
